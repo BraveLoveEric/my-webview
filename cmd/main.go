@@ -1,7 +1,7 @@
 package main
 
 import (
-	webview "my-webview"
+	"my-webview/webview"
 )
 
 const (
@@ -20,4 +20,3 @@ func main() {
 	defer w.Exit()
 	w.Run()
 }
-
