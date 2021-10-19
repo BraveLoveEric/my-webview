@@ -1,7 +1,7 @@
 package main
 
 import (
-	"my-webview/webview"
+	"github.com/BraveLoveEric/my-webview/webview"
 )
 
 const (
