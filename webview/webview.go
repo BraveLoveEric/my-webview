@@ -273,7 +273,7 @@ func (w *webview) Loop(blocking bool) bool {
 }
 
 func (w *webview) Run() {
-	for w.Loop(true) {
+	for w.Loop(false) {
 	}
 }
 
